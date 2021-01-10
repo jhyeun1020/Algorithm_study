@@ -35,4 +35,4 @@ for i in range(3):
 import numpy as np
 np.array([1,2,3])
 ```
-* 내 홈페이지 jhyeun1020.github.io
+* 내 홈페이지 https://jhyeun1020.github.io/
