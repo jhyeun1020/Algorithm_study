@@ -27,6 +27,12 @@
 ###### -> sorted(문자열)은 각 문자들을 요소로하는 리스트를 생성 가능 list(문자열)과 비슷함
 ###### -> a = 'aaedaee'일때 sorted(a,key=a.find)를 사용하면 알파벳의 아스키 순서대로 정렬되지 않고 먼저 온 알파벳 순서대로 정렬됨 ...
 
+##### 문자열 간단하게 뒤집는 법
+```python
+a = 'abcdef'
+print(a[::-1]) # fedcba를 출력
+```
+
 <pre><code>
 for i in range(3):
     print(i)
