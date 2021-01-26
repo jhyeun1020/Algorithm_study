@@ -37,8 +37,5 @@ print(a[::-1]) # fedcba를 출력
 for i in range(3):
     print(i)
 </pre></code>
-```python
-import numpy as np
-np.array([1,2,3])
-```
+
 * 내 홈페이지 https://jhyeun1020.github.io/
