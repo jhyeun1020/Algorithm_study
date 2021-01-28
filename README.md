@@ -32,6 +32,7 @@
 a = 'abcdef'
 print(a[::-1]) # fedcba를 출력
 ```
+##### for 문에서 range() 값에 0을 집어넣으면 for 문을 실행하지 않고, 오류 또한 발생하지 않음
 
 <pre><code>
 for i in range(3):
