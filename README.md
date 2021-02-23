@@ -38,6 +38,10 @@ print(a[::-1]) # fedcba를 출력
 ###### -> input() 함수는 입력을 받고 개행문자를 제거하여 반환함, but sys~는 개행문자를 포함함(개행문자를 입력안해도)
 ###### -> EOF 관련 이슈는 https://velog.io/@gouz7514/%ED%8C%8C%EC%9D%B4%EC%8D%AC-input-vs-sys.stdin.readline 링크를 참조하자
 ###### -> print() 함수도 sys 꼴로 사용할 수 있는데 -> sys.stdout.write() 정수는 못 읽는 듯하다 -> 요놈은 print()와 다르게 개행 문자가 없다
+
+##### 람다 함수 정리
+###### ex) (lambda x,y: x+y)(1,2) -> 3을 반환 (왼쪽이 파라미터, 오른쪽이 반환 값을 나타냄
+
 <pre><code>
 for i in range(3):
     print(i)
